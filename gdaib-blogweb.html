@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Blog</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="gdaib-styles/bootstrap-4.1.2/bootstrap.min.css">
+    <!-- 时钟的样式 -->
+    <link href="plugins/jquery-datepicker/jquery-ui.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="gdaib-styles/gdaib-blog.css">
+</head>
+
+<body>
+    <div class="gdaib-super_container">
+        <!-- Header -->
+        <header class="gdaib-header">
+            <div class="gdaib-header_content d-flex flex-row align-items-center justify-content-start">
+                <div class="gdaib-logo"><a href="#">Starry Chen</a></div>
+                <div class="ml-auto d-flex flex-row align-items-center justify-content-start">
+                    <nav class="gdaib-main_nav">
+                        <ul class="d-flex flex-row align-items-start justify-content-start">
+                            <li><a href="gdaib-indexweb.html">首页</a></li>
+                            <li><a href="gdaib-aboutweb.html">关于我们</a></li>
+                            <li><a href="gdaib-elementsweb.html">房型</a></li>
+                            <li class="gdaib-active"><a href="gdaib-blogweb.html">博客</a></li>
+                            <li><a href="gdaib-contactweb.html">联系我们</a></li>
+                        </ul>
+                    </nav>
+                    <div class="gdaib-book_button"><a href="gdaib-bookingweb.html">在线预定</a></div>
+                    <div class="gdaib-header_phone d-flex flex-row align-items-center justify-content-center">
+                        <img src="gdaib-images/gdaib-phone.png" alt="">
+                        <span>0183-12345678</span>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Home -->
+        <div class="gdaib-home">
+            <div class="gdaib-background_image" style="background-image:url(gdaib-images/gdaib-blog1_bg1.jpg)"></div>
+            <div class="gdaib-home_container">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <div class="gdaib-home_content text-center">
+                                <div class="gdaib-home_title">博客</div>
+                                <div class="gdaib-booking_form_container">
+                                    <form action="#" class="gdaib-booking_form" id="gdaib-booking_form">
+                                        <div class="d-flex flex-xl-row flex-column align-items-start justify-content-start">
+                                            <div class="gdaib-booking_input_container d-flex flex-row align-items-start justify-content-start flex-wrap">
+                                                <div><input type="text" class="datepicker gdaib-booking_input booking_input_a booking_in" placeholder="入住" required="required"></div>
+                                                <div><input type="text" class="datepicker gdaib-booking_input booking_input_a booking_out" placeholder="退房" required="required"></div>
+                                                <div><input type="number" class="gdaib-booking_input booking_input_b" placeholder="人数" required="required"></div>
+                                                <div><input type="number" class="gdaib-booking_input booking_input_b" placeholder="房间数量" required="required"></div>
+                                            </div>
+                                            <div><button class="gdaib-booking_button trans_200">立即预订</button></div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Blog -->
+        <div class="gdaib-blog">
+            <div class="container">
+                <div class="row">
+                    <!-- Blog Posts -->
+                    <div class="col-lg-9">
+                        <div class="gdaib-blog_posts">
+                            <!-- Blog Post -->
+                            <div class="gdaib-blog_post">
+                                <div class="gdaib-blog_post_image">
+                                    <img src="gdaib-images/gdaib-blog1_content1.jpg" alt="">
+                                    <div class="gdaib-blog_post_date"><a href="#">December 20, 2020</a></div>
+                                </div>
+                                <div class="gdaib-blog_post_content">
+                                    <div class="gdaib-blog_post_title"><a href="#">火热跨年”元旦套餐</a></div>
+                                    <div class="gdaib-blog_post_info">
+                                        <ul class="d-flex flex-row align-items-start justify-content-start flex-wrap">
+                                            <li class="d-flex flex-row align-items-center justify-content-start">
+                                                <img src="gdaib-images/gdaib-icon_4.png" alt="">
+                                                <a href="#">文章</a>
+                                            </li>
+                                            <li class="d-flex flex-row align-items-center justify-content-start">
+                                                <img src="gdaib-images/gdaib-icon_5.png" alt="">
+                                                <a href="#">21 喜欢</a>
+                                            </li>
+                                            <li class="d-flex flex-row align-items-center justify-content-start">
+                                                <img src="gdaib-images/gdaib-icon_6.png" alt="">
+                                                <a href="#">602 在看</a>
+                                            </li>
+                                            <li class="d-flex flex-row align-items-center justify-content-start">
+                                                <img src="gdaib-images/gdaib-icon_7.png" alt="">
+                                                <a href="#">1 分钟前</a>
+                                            </li>
+                                            <li class="d-flex flex-row align-items-center justify-content-start">
+                                                <img src="gdaib-images/gdaib-icon_8.png" alt="">
+                                                <a href="#">3 评论</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="gdaib-blog_post_text">
+                                        <p>心跳狂欢倒数，嗨翻香槟派对，围着篝火许愿，聆听新年钟声，迎接新年曙光。香槟举杯狂欢，纵享莫干之巅绝美之境，乐享缤纷跨年大餐，一起心跳倒数！暖心泡汤，舒缓SPA，新年篝火晚会，创意手作…来Starry Chen，迎接王子和公主般的跨年之夜吧！</p>
+                                    </div>
+                                    <div class="button gdaib-blog_post_button"><a href="#">阅读更多</a></div>
+                                </div>
+                            </div>
+                            <!-- Blog Post -->
+                            <div class="gdaib-blog_post">
+                                <div class="gdaib-blog_post_image">
+                                    <img src="gdaib-images/gdaib-blog1_content2.jpg" alt="">
+                                    <div class="gdaib-blog_post_date"><a href="#">November 12, 2028</a></div>
+                                </div>
+                                <div class="gdaib-blog_post_content">
+                                    <div class="gdaib-blog_post_title"><a href="#">3天2晚 & 2天1晚 “乐融暖冬” 套餐</a></div>
+                                    <div class="gdaib-blog_post_info">
+                                        <ul class="d-flex flex-row align-items-start justify-content-start flex-wrap">
+                                            <li class="d-flex flex-row align-items-center justify-content-start">
+                                                <img src="gdaib-images/gdaib-icon_4.png" alt="">
+                                                <a href="#">文章</a>
+                                            </li>
+                                            <li class="d-flex flex-row align-items-center justify-content-start">
+                                                <img src="gdaib-images/gdaib-icon_5.png" alt="">
+                                                <a href="#">21 喜欢</a>
+                                            </li>
+                                            <li class="d-flex flex-row align-items-center justify-content-start">
+                                                <img src="gdaib-images/gdaib-icon_6.png" alt="">
+                                                <a href="#">602 在看</a>
+                                            </li>
+                                            <li class="d-flex flex-row align-items-center justify-content-start">
+                                                <img src="gdaib-images/gdaib-icon_7.png" alt="">
+                                                <a href="#">1 分钟前</a>
+                                            </li>
+                                            <li class="d-flex flex-row align-items-center justify-content-start">
+                                                <img src="gdaib-images/gdaib-icon_8.png" alt="">
+                                                <a href="#">3 评论</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="gdaib-blog_post_text">
+                                        <p>与雪意温暖相遇，阳光竹海，赴一场暖冬之约，别样裸心在心间。莫干之巅，冬日城堡，童话般的人间仙境。化身王子公主，在崖景套房，在奢华小院……探寻城堡的冬日优雅。浪漫暖心的篝火派对，烤棉花糖的甜蜜滋味扫光冬日寒冷；趣味拼图画，穿越到天马行空的童年时光；还有围炉暖话的举杯畅谈，倍感幸福慰藉。</p>
+                                    </div>
+                                    <div class="button gdaib-blog_post_button"><a href="#">阅读更多</a></div>
+                                </div>
+                            </div>
+                            <!-- Blog Post -->
+                            <div class="gdaib-blog_post">
+                                <div class="gdaib-blog_post_image">
+                                    <img src="gdaib-images/gdaib-blog1_content3.jpg" alt="">
+                                    <div class="gdaib-blog_post_date"><a href="#">Oct 20, 2020</a></div>
+                                </div>
+                                <div class="gdaib-blog_post_content">
+                                    <div class="gdaib-blog_post_title"><a href="#">3天2晚 “缤纷圣诞” 节日套餐</a></div>
+                                    <div class="gdaib-blog_post_info">
+                                        <ul class="d-flex flex-row align-items-start justify-content-start flex-wrap">
+                                            <li class="d-flex flex-row align-items-center justify-content-start">
+                                                <img src="gdaib-images/gdaib-icon_4.png" alt="">
+                                                <a href="#">文章</a>
+                                            </li>
+                                            <li class="d-flex flex-row align-items-center justify-content-start">
+                                                <img src="gdaib-images/gdaib-icon_5.png" alt="">
+                                                <a href="#">21 喜欢</a>
+                                            </li>
+                                            <li class="d-flex flex-row align-items-center justify-content-start">
+                                                <img src="gdaib-images/gdaib-icon_6.png" alt="">
+                                                <a href="#">602 在看</a>
+                                            </li>
+                                            <li class="d-flex flex-row align-items-center justify-content-start">
+                                                <img src="gdaib-images/gdaib-icon_7.png" alt="">
+                                                <a href="#">1 分钟前</a>
+                                            </li>
+                                            <li class="d-flex flex-row align-items-center justify-content-start">
+                                                <img src="gdaib-images/gdaib-icon_8.png" alt="">
+                                                <a href="#">3 评论</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="gdaib-blog_post_text">
+                                        <p>城堡圣诞夜，装点你的崖景套房、奢华小院…满满仪式感。城堡探秘，趣味十足，零点敲钟，珍藏纪念。聆听圣诞温暖唱诗，带来最佳心灵治愈。传奇城堡，梦境般的圣诞体验，你的圣诞老人是否会如约而至？充满魔力的裸心堡缤纷圣诞已开启…</p>
+                                    </div>
+                                    <div class="button gdaib-blog_post_button"><a href="#">阅读更多</a></div>
+                                </div>
+                            </div>
+                            <!-- Page Nav -->
+                            <div class="gdaib-page_nav">
+                                <ul class="d-flex flex-row align-items-start justify-content-start">
+                                    <li class="active"><a href="gdaib-blogweb.html">01.</a></li>
+                                    <li><a href="gdaib-blog2web.html">02.</a></li>
+                                    <li><a href="gdaib-blog3web.html">03.</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Sidebar -->
+                    <div class="col-lg-3">
+                        <div class="gdaib-sidebar">
+                            <!-- Search -->
+                            <div class="gdaib-sidebar_search">
+                                <form action="#" class="gdaib-sidebar_search_form" id="gdaib-sidebar_saerch_form">
+                                    <input type="text" class="gdaib-sidebar_search_input" placeholder="关键词" required="required">
+                                    <button class="gdaib-sidebar_search_button">搜索</button>
+                                </form>
+                            </div>
+                            <!-- Recent Posts -->
+                            <div class="gdaib-recent_posts">
+                                <div class="gdaib-sidebar_title">
+                                    <h4>最近热搜</h4>
+                                </div>
+                                <div class="gdaib-sidebar_list">
+                                    <ul>
+                                        <li><a href="#">圣诞活动</a></li>
+                                        <li><a href="#">元旦优惠</a></li>
+                                        <li><a href="#">情人节预定</a></li>
+                                        <li><a href="#">家庭套房</a></li>
+                                        <li><a href="#">莫干山徒步观光</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- Categories -->
+                            <div class="gdaib-categories">
+                                <div class="gdaib-sidebar_title">
+                                    <h4>搜索类型</h4>
+                                </div>
+                                <div class="gdaib-sidebar_list">
+                                    <ul>
+                                        <li><a href="#">价格</a></li>
+                                        <li><a href="#">房型</a></li>
+                                        <li><a href="#">人数</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- tags -->
+                            <div class="gdaib-tags">
+                                <div class="gdaib-sidebar_title">
+                                    <h4>标签</h4>
+                                </div>
+                                <div class="gdaib-tags_container">
+                                    <ul class="d-flex flex-row align-items-start justify-content-start flex-wrap">
+                                        <li><a href="#">圣诞节</a></li>
+                                        <li><a href="#">元旦</a></li>
+                                        <li><a href="#">折扣</a></li>
+                                        <li><a href="#">预定优惠</a></li>
+                                        <li><a href="#">团建活动</a></li>
+                                        <li><a href="#">婚礼举办</a></li>
+                                        <li><a href="#">单身party</a></li>
+                                        <li><a href="#">公司联谊</a></li>
+                                        <li><a href="#">莫干山</a></li>
+                                        <li><a href="#">日出时间</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- Special Offer -->
+                            <div class="gdaib-special_offer">
+                                <div class="gdaib-background_image" style="background-image:url(gdaib-images/gdaib-blog1_gallery.jpeg)"></div>
+                                <div class="gdaib-special_offer_container text-center">
+                                    <div class="gdaib-special_offer_title">夜间优惠</div>
+                                    <div class="gdaib-special_offer_subtitle">家庭套房</div>
+                                    <div class="button gdaib-special_offer_button"><a href="#">立即预订</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer -->
+        <footer class="gdaib-footer">
+            <div class="gdaib-footer_content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <div class="gdaib-footer_logo_container text-center">
+                                <div class="gdaib-footer_logo">
+                                    <a href="#"></a>
+                                    <div>Starry Chen</div>
+                                    <div>since 1999</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gdaib-footer_row row">
+                        <!-- Address -->
+                        <div class="col-lg-3">
+                            <div class="gdaib-footer_title">地址</div>
+                            <div class="gdaib-footer_list">
+                                <ul>
+                                    <li>XXX</li>
+                                    <li>67559 GDAIB</li>
+                                    <li>China</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- Reservations -->
+                        <div class="col-lg-3">
+                            <div class="gdaib-footer_title">预定</div>
+                            <div class="gdaib-footer_list">
+                                <ul>
+                                    <li>电话: XXX</li>
+                                    <li>传真; XXX</li>
+                                    <li>XXX</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- Newsletter -->
+                        <div class="col-lg-3">
+                            <div class="gdaib-footer_title">给我们来信</div>
+                            <div class="gdaib-newsletter_container">
+                                <form action="#" class="gdaib-newsletter_form" id="gdaib-newsletter_form">
+                                    <input type="email" class="gdaib-newsletter_input" placeholder="邮箱地址" required="required">
+                                    <button class="gdaib-newsletter_button">提交</button>
+                                </form>
+                            </div>
+                        </div>
+                        <!-- Footer images -->
+                        <div class="col-lg-3">
+                            <div class="gdaib-certificates d-flex flex-row align-items-start justify-content-lg-between justify-content-start flex-lg-nowrap flex-wrap">
+                                <div class="gdaib-cert"><img src="gdaib-images/gdaib-cert_1.png" alt=""></div>
+                                <div class="gdaib-cert"><img src="gdaib-images/gdaib-cert_2.png" alt=""></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="gdaib-copyright">
+                Copyright &copy;Starry Chen
+        </footer>
+    </div>
+    <script src="gdaib-js/jquery-3.3.1.min.js"></script>
+    <script src="plugins/jquery-datepicker/jquery-ui.js"></script>
+    <script src="gdaib-js/gdaib-blog.js"></script>
+</body>
+
+</html>

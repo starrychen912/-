@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Starry Chen</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="gdaib-styles/bootstrap-4.1.2/bootstrap.min.css">
+    <!-- 大的轮播图 -->
+    <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.3.4/owl.carousel.css">
+    <!-- 日历 -->
+    <link href="plugins/jquery-datepicker/jquery-ui.css" rel="stylesheet" type="text/css">
+    <!--  下面的轮播图-->
+    <link href="plugins/colorbox/colorbox.css" rel="stylesheet" type="text/css">
+    <!-- 首页的css -->
+    <link rel="stylesheet" type="text/css" href="gdaib-styles/gdaib-index.css">
+</head>
+
+<body>
+    <div class="gdaib-all_container">
+        <!-- Header -->
+        <header class="gdaib-header">
+            <div class="gdaib-header_content d-flex flex-row align-items-center justify-content-start">
+                <div class="gdaib-logo"><a href="#">Starry Chen</a></div>
+                <div class="ml-auto d-flex flex-row align-items-center justify-content-start">
+                    <nav class="gdaib-main_nav">
+                        <ul class="d-flex flex-row align-items-start justify-content-start">
+                            <li class="gdaib-active"><a href="gdaib-indexweb.html">首页</a></li>
+                            <li><a href="gdaib-aboutweb.html">关于我们</a></li>
+                            <li><a href="gdaib-elementsweb.html">房型</a></li>
+                            <li><a href="gdaib-blogweb.html">博客</a></li>
+                            <li><a href="gdaib-contactweb.html">联系我们</a></li>
+                        </ul>
+                    </nav>
+                    <div class="gdaib-book_button"><a href="gdaib-bookingweb.html">在线预订</a></div>
+                    <div class="gdaib-header_phone d-flex flex-row align-items-center justify-content-center">
+                        <img src="gdaib-images/gdaib-phone.png" alt="">
+                        <span>0863-12345678</span>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Home -->
+        <div class="gdaib-home">
+            <div class="gdaib-home_slider_container">
+                <div class="gdaib-home_slider owl-carousel">
+                    <!-- Slide -->
+                    <div class="gdaib-slide">
+                        <div class="gdaib-background_image"
+                            style="background-image:url(gdaib-images/gdaib-index_about1.jpg)"></div>
+
+                    </div>
+                    <!-- Slide -->
+                    <div class="gdaib-slide">
+                        <div class="gdaib-background_image"
+                            style="background-image:url(gdaib-images/gdaib-index_about2.jpg)"></div>
+
+                    </div>
+                    <!-- Slide -->
+                    <div class="gdaib-slide">
+                        <div class="gdaib-background_image"
+                            style="background-image:url(gdaib-images/gdaib-index_about3.jpg)"></div>
+
+                    </div>
+                </div>
+                <div class="gdaib-home_container">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col">
+                                <div class="gdaib-home_content text-center">
+                                    <div class="gdaib-home_title">享受生活</div>
+                                    <div class="gdaib-booking_form_container">
+                                        <form action="#" class="gdaib-booking_form">
+                                            <div
+                                                class="d-flex flex-xl-row flex-column align-items-start justify-content-start">
+                                                <div
+                                                    class="gdaib-booking_input_container d-flex flex-lg-row flex-column align-items-start justify-content-start">
+                                                    <div><input type="text"
+                                                            class="gdaib-datepicker gdaib-booking_input  booking_in"
+                                                            placeholder="入住" required="required"></div>
+                                                    <div><input type="text"
+                                                            class="gdaib-datepicker gdaib-booking_input  booking_out"
+                                                            placeholder="退房" required="required"></div>
+                                                    <div><input type="number"
+                                                            class="gdaib-booking_input gdaib-booking_input_b"
+                                                            placeholder="人数" required="required"></div>
+                                                    <div><input type="number"
+                                                            class="gdaib-booking_input gdaib-booking_input_b"
+                                                            placeholder="房间数量" required="required"></div>
+                                                </div>
+                                                <div><button class="gdaib-booking_button trans_200">立即预订</button></div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Home Slider Dots -->
+                <div class="gdaib-home_slider_dots_container">
+                    <!-- <div class="home_slider_dots"> -->
+                    <ul id="gdaib-home_slider_custom_dots"
+                        class="gdaib-home_slider_custom_dots d-flex flex-row align-items-start justify-content-start">
+                        <li class="gdaib-home_slider_custom_dot gdaib-active">01.</li>
+                        <li class="gdaib-home_slider_custom_dot">02.</li>
+                        <li class="gdaib-home_slider_custom_dot">03.</li>
+                    </ul>
+                    <!-- </div> -->
+                </div>
+            </div>
+        </div>
+        <!-- Features -->
+        <div class="gdaib-features">
+            <div class="container">
+                <div class="row">
+                    <!-- Icon Box -->
+                    <div class="gdaib-icon_box_col col-lg-4">
+                        <div
+                            class="gdaib-icon_box d-flex flex-column align-items-center justify-content-start text-center">
+                            <div class="gdaib-icon_box_icon"><img src="gdaib-images/gdaib-icon_1.svg" class="svg" alt=""></div>
+                            <div class="gdaib-icon_box_title">
+                                <h2>神话般的度假村</h2>
+                            </div>
+                            <div class="gdaib-icon_box_text">
+                                <p>360度的壮阔山林美景环绕，不同的客房类型，除了提供宾客梦幻奢华的城堡度假体验，更有自然质朴的客房让人如遁入世外桃源般全然放松</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Icon Box -->
+                    <div class="gdaib-icon_box_col col-lg-4">
+                        <div
+                            class="gdaib-icon_box d-flex flex-column align-items-center justify-content-start text-center">
+                            <div class="gdaib-icon_box_icon"><img src="gdaib-images/gdaib-icon_2.svg" class="svg"
+                                    alt=""></div>
+                            <div class="gdaib-icon_box_title">
+                                <h2>无边泳池</h2>
+                            </div>
+                            <div class="gdaib-icon_box_text">
+                                <p>城堡的前身——苏格兰传教士医师梅藤更建立的城堡式别墅，九十余间各有千秋的客房，另还有2间餐厅、1所威士忌酒吧和1所水疗中心</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Icon Box -->
+                    <div class="gdaib-icon_box_col col-lg-4">
+                        <div
+                            class="gdaib-icon_box d-flex flex-column align-items-center justify-content-start text-center">
+                            <div class="gdaib-icon_box_icon"><img src="gdaib-images/gdaib-icon_3.svg" class="svg"
+                                    alt=""></div>
+                            <div class="gdaib-icon_box_title">
+                                <h2>户外活动</h2>
+                            </div>
+                            <div class="gdaib-icon_box_text">
+                                <p>您可以选择在泳池戏水，骑马，骑单车，网球，来一堂清晨瑜伽，或是逛逛裸心堡博物馆，去珍藏图书馆阅读一本好书…</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Gallery -->
+        <div class="gdaib-gallery">
+            <div class="gdaib-gallery_slider owl-carousel">
+                <!-- Slide -->
+                <div class="gdaib-gallery_item">
+                    <div class="gdaib-background_image" style="background-image:url(gdaib-images/gadib-gallery_1.jpg)">
+                    </div>
+                    <a class="gdaib-colorbox" href="gdaib-images/gadib-gallery_1.jpg"></a>
+                </div>
+                <!-- Slide -->
+                <div class="gdaib-gallery_item">
+                    <div class="gdaib-background_image" style="background-image:url(gdaib-images/gdaib-gallery_2.jpg)">
+                    </div>
+                    <a class="gdaib-colorbox" href="gdaib-images/gadib-gallery_2.jpg"></a>
+                </div>
+                <!-- Slide -->
+                <div class="gdaib-gallery_item">
+                    <div class="gdaib-background_image" style="background-image:url(gdaib-images/gdaib-gallery_3.jpg)">
+                    </div>
+                    <a class="gdaib-colorbox" href="gdaib-images/gdaib-gallery_3.jpg"></a>
+                </div>
+                <!-- Slide -->
+                <div class="gdaib-gallery_item">
+                    <div class="gdaib-background_image" style="background-image:url(gdaib-images/gdaib-gallery_4.jpg)">
+                    </div>
+                    <a class="gdaib-colorbox" href="gdaib-images/gdaib-gallery_4.jpg"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- about -->
+    <div class="gdaib-about">
+        <div class="container">
+            <div class="row">
+                <!-- gdaib-about Content -->
+                <div class="col-lg-6">
+                    <div class="gdaib-about_content">
+                        <div class="gdaib-about_title">
+                            <h2>前身 / 1910年，苏格兰传教士医师梅滕更建造了英式城堡别墅</h2>
+                        </div>
+                        <div class="gdaib-about_text">
+                            <p>2007年，“Starry
+                                Chen”发现了一座沉睡在莫干山中、有故事的百年古堡遗址，努力找到了当年的建筑图纸，决定唤醒城堡动人的历史，并续写它辉煌的未来。穿过百年沧桑，裸心堡以崭新的面貌惊艳回归。重峦薄霭中的百年古堡，别致优雅的城堡山居生活，让人们体味到步入童话世界的梦幻浪漫。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- about Images -->
+                <div class="col-lg-6">
+                    <div
+                        class="gdaib-about_images d-flex flex-row align-items-center justify-content-between flex-wrap">
+                        <img src="gdaib-images/gdaib-picon1.png" alt="">
+                        <img src="gdaib-images/gdaib-picon2.png" alt="">
+                        <img src="gdaib-images/gdaib-picon3.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonials -->
+    <div class="gdaib-testimonials">
+        <div class="gdaib-background_image" style="background-image:url(gdaib-images/gdaib-testimonials.jpg)"></div>
+        <div class="gdaib-testimonials_overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="gdaib-testimonials_slider_container">
+                        <!-- Testimonials Slider -->
+                        <div class="gdaib-test_slider owl-carousel">
+                            <!-- Slide -->
+                            <div class="gdaib-test_slider_item text-center">
+                                <div class="gdaib-testimonial_title"><a href="#">完美的居住体验</a></div>
+                                <div class="gdaib-testimonial_text">
+                                    <p>真的是非常满意的一次体验 窗外风景怡然 屋内干净舒适 大落地窗真是让人吃的心旷神怡 在这里还特别感谢管家小陈姑娘 是一个非常漂亮的小姐姐 貌美 体贴
+                                        安排的妥妥贴贴。希望下次有机会还能过来再次入住 感受这份浪漫！</p>
+                                </div>
+                                <div class="gdaib-testimonial_image"><img src="gdaib-images/gdaib-user_1.jpg" alt="">
+                                </div>
+                                <div class="gdaib-testimonial_author"><a href="#">李</a> xx</div>
+                            </div>
+                            <!-- Slide -->
+                            <div class="gdaib-test_slider_item text-center">
+                                <div class="gdaib-testimonial_title"><a href="#">地理位置优越</a></div>
+                                <div class="gdaib-testimonial_text">
+                                    <p>莫干山顶，风景一级棒个人觉得这是中国最富山居浪漫气息的酒店。酒店员工服务一流，在细节上也做得很到位！酒店在山上接送客人的电瓶车也是24小时服务。赞！
+                                        选择裸心谷，就是选择一份好心情，一份美的回忆。推荐！</p>
+                                </div>
+                                <div class="gdaib-testimonial_image"><img src="gdaib-images/gdaib-user_2.jpeg" alt="">
+                                </div>
+                                <div class="gdaib-testimonial_author"><a href="#">罗</a> xx</div>
+                            </div>
+                            <!-- Slide -->
+                            <div class="gdaib-test_slider_item text-center">
+                                <div class="gdaib-testimonial_title"><a href="#">优美景色</a></div>
+                                <div class="gdaib-testimonial_text">
+                                    <p>相约自驾登顶诗和远方 一步到位选择莫干山 四周群山环绕 放眼皆是满屏秋色。适逢深秋淡季上山 前台经理贴心升级了崖景套房 开门忽见夕阳迎接入住 满屋皆是浪漫的金黄
+                                        为聚会增暖加分 满带仪式感走进城堡</p>
+                                </div>
+                                <div class="gdaib-testimonial_image"><img src="gdaib-images/gdaib-user_3.jpeg" alt="">
+                                </div>
+                                <div class="gdaib-testimonial_author"><a href="#">洪</a> xx</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Booking -->
+    <div class="gdaib-booking">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="gdaib-booking_title text-center">
+                        <h2>预定房间</h2>
+                    </div>
+                    <div class="gdaib-booking_text text-center">
+                        <p>来Starry
+                            Chen，寻一场与众不同的跨年！跨年倒数，来点不一样的可好？篝火晚会、香槟美酒、城堡竹海……用一场热烈而欢愉的新年派对辞旧纳新，元旦火热跨年套餐，解锁跨年最正确的打开方式！狂喜、狂欢…
+                            跨年狂想曲即将开启，香槟美饮嗨翻跨年夜!在Starry Chen与好友亲朋，跨年倒数,3,2,1…狂欢趴中聆听新年钟声!</p>
+                    </div>
+                    <!-- Booking Slider -->
+                    <div class="gdaib-booking_slider_container">
+                        <div class="gdaib-booking_slider owl-carousel">
+                            <!-- Slide -->
+                            <div class="gdaib-booking_item">
+                                <div class="gdaib-background_image"
+                                    style="background-image:url(gdaib-images/gdaib-Booking_1.jpg)"></div>
+                                <div class="gdaib-booking_overlay trans_200"></div>
+                                <div class="gdaib-booking_item_content">
+                                    <div class="gdaib-booking_item_list">
+                                        <ul>
+                                            <li>56 m² </li>
+                                            <li>大床房</li>
+                                            <li>独立淋浴间</li>
+                                            <li>房间内5G网络覆盖</li>
+                                            <li>迷你吧台 咖啡机</li>
+                                            <li>超高清电视机</li>
+                                            <li>浴室化妆放大镜</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="gdaib-booking_price">1600/Night</div>
+                                <div class="gdaib-booking_link"><a href="gdaib-bookingweb.html">城堡套房</a></div>
+                            </div>
+                            <!-- Slide -->
+                            <div class="gdaib-booking_item">
+                                <div class="gdaib-background_image"
+                                    style="background-image:url(gdaib-images/gdaib-Booking_2.jpg)"></div>
+                                <div class="gdaib-booking_overlay trans_200"></div>
+                                <div class="gdaib-booking_item_content">
+                                    <div class="gdaib-booking_item_list">
+                                        <ul>
+                                            <li>56 m² </li>
+                                            <li>大床房</li>
+                                            <li>独立淋浴间</li>
+                                            <li>房间内5G网络覆盖</li>
+                                            <li>迷你吧台 咖啡机</li>
+                                            <li>超高清电视机</li>
+                                            <li>浴室化妆放大镜</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="gdaib-booking_price">1120/Night</div>
+                                <div class="gdaib-booking_link"><a href="gdaib-bookingweb.html">涯景套房</a></div>
+                            </div>
+                            <!-- Slide -->
+                            <div class="gdaib-booking_item">
+                                <div class="gdaib-background_image"
+                                    style="background-image:url(gdaib-images/gdaib-Booking_3.jpg)"></div>
+                                <div class="gdaib-booking_overlay trans_200"></div>
+                                <div class="gdaib-booking_item_content">
+                                    <div class="gdaib-booking_item_list">
+                                        <ul>
+                                            <li>66 m² </li>
+                                            <li>大床房</li>
+                                            <li>独立淋浴间</li>
+                                            <li>房间内5G网络覆盖</li>
+                                            <li>迷你吧台 咖啡机</li>
+                                            <li>超高清电视机</li>
+                                            <li>浴室化妆放大镜</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="gdaib-booking_price">2200/Night</div>
+                                <div class="gdaib-booking_link"><a href="gdaib-bookingweb.html">奢华小院</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Blog -->
+    <div class="gdaib-blog">
+        <!-- Blog Slider -->
+        <div class="gdaib-blog_slider_container">
+            <div class="owl-carousel gdaib-blog_slider">
+                <!-- Slide -->
+                <div class="gdaib-blog_slide">
+                    <div class="gdaib-background_image"
+                        style="background-image:url(gdaib-images/gdaib-index_blog_1.jpg)"></div>
+                    <div class="gdaib-blog_content">
+                        <div class="gdaib-blog_date"><a href="#">Oct 20, 2021</a></div>
+                        <div class="gdaib-blog_title"><a href="#">岩石剧场</a></div>
+                    </div>
+                </div>
+                <!-- Slide -->
+                <div class="gdaib-blog_slide">
+                    <div class="gdaib-background_image"
+                        style="background-image:url(gdaib-images/gdaib-index_blog2.jpg)"></div>
+                    <div class="gdaib-blog_content">
+                        <div class="gdaib-blog_date"><a href="#">April 20, 2021</a></div>
+                        <div class="gdaib-blog_title"><a href="#">博物馆历史游</a></div>
+                    </div>
+                </div>
+                <!-- Slide -->
+                <div class="gdaib-blog_slide">
+                    <div class="gdaib-background_image"
+                        style="background-image:url(gdaib-images/gdaib-index_blog_3.jpg)"></div>
+                    <div class="gdaib-blog_content">
+                        <div class="gdaib-blog_date"><a href="#">June 12, 2021</a></div>
+                        <div class="gdaib-blog_title"><a href="#">徒步观游莫干山</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer class="gdaib-footer">
+        <div class="gdaib-footer_content">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="gdaib-footer_logo_container text-center">
+                            <div class="gdaib-footer_logo">
+                                <a href="#"></a>
+                                <div>Starry Chen</div>
+                                <div>since 1999</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gdaib-footer_row row">
+                    <!-- Address -->
+                    <div class="col-lg-3">
+                        <div class="gdaib-footer_title">地址</div>
+                        <div class="gdaib-footer_list">
+                            <ul>
+                                <li>XXX</li>
+                                <li>67559 GDAIB</li>
+                                <li>China</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Reservations -->
+                    <div class="col-lg-3">
+                        <div class="gdaib-footer_title">预定</div>
+                        <div class="gdaib-footer_list">
+                            <ul>
+                                <li>电话: XXX</li>
+                                <li>传真; XXX</li>
+                                <li>XXX</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Newsletter -->
+                    <div class="col-lg-3">
+                        <div class="gdaib-footer_title">给我们来信</div>
+                        <div class="gdaib-newsletter_container">
+                            <form action="#" class="gdaib-newsletter_form" id="gdaib-newsletter_form">
+                                <input type="email" class="gdaib-newsletter_input" placeholder="邮箱地址"
+                                    required="required">
+                                <button class="gdaib-newsletter_button">提交</button>
+                            </form>
+                        </div>
+                    </div>
+                    <!-- Footer images -->
+                    <div class="col-lg-3">
+                        <div
+                            class="gdaib-certificates d-flex flex-row align-items-start justify-content-lg-between justify-content-start flex-lg-nowrap flex-wrap">
+                            <div class="gdaib-cert"><img src="gdaib-images/gdaib-cert_1.png" alt=""></div>
+                            <div class="gdaib-cert"><img src="gdaib-images/gdaib-cert_2.png" alt=""></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="gdaib-copyright">
+            Copyright &copy;Starry Chen
+    </footer>
+    </div>
+    <script src="gdaib-js/jquery-3.3.1.min.js"></script>
+    <script src="plugins/OwlCarousel2-2.3.4/owl.carousel.js"></script>
+    <script src="plugins/jquery-datepicker/jquery-ui.js"></script>
+    <script src="plugins/colorbox/jquery.colorbox-min.js"></script>
+    <script src="gdaib-js/gdaib-index.js"></script>
+</body>
+
+</html>
